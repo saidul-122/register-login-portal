@@ -1,73 +1,68 @@
-# Welcome to your Lovable project
+🚀 PopX Login Dashboard App
+A modern and responsive login and user dashboard built with React, TypeScript, TailwindCSS, and React Router. Designed with elegant UI components and smooth animations to create a clean, professional user experience.
 
-## Project info
+📸 Features
+🔐 Login Form with validation and toast feedback
 
-**URL**: https://lovable.dev/projects/8fb1c551-7ba9-41ab-a450-58f85340acfd
+⚙️ Dashboard with profile image upload and user info
 
-## How can I edit this code?
+💅 Custom UI Design using TailwindCSS and shadcn/ui
 
-There are several ways of editing your application.
+🌈 Color theme based on PopX brand (purple, gray, etc.)
 
-**Use Lovable**
+⚡ Animations powered by tailwindcss-animate
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8fb1c551-7ba9-41ab-a450-58f85340acfd) and start prompting.
+💾 User data persistence via localStorage
 
-Changes made via Lovable will be committed automatically to this repo.
+📱 Fully responsive layout
 
-**Use your preferred IDE**
+📂 Folder Structure
+bash
+Copy
+Edit
+src/
+│
+├── components/ # UI components (Button, Input, etc.)
+├── hooks/ # Custom hooks (e.g., use-toast)
+├── pages/ # Route-based pages (Login, Dashboard)
+├── app/ # App root & routing
+├── styles/ # Tailwind config & global styles
+🛠️ Tech Stack
+React + TypeScript
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+React Router DOM
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+TailwindCSS
 
-Follow these steps:
+Lucide Icons
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+shadcn/ui components
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+toast notifications
 
-# Step 3: Install the necessary dependencies.
-npm i
+🚦 Getting Started
+Clone the repo:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+bash
+Copy
+Edit
+git clone https://github.com/saidul-122/register-login-portal
+cd popx-dashboard
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Start the app:
+
+bash
+Copy
+Edit
 npm run dev
-```
+Visit:
+Open http://localhost:8000 in your browser
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/8fb1c551-7ba9-41ab-a450-58f85340acfd) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+🧪 Demo Credentials (Mock)
+Use any email and password to log in.
+This is a frontend-only demo — authentication is simulated.

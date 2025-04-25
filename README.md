@@ -1,6 +1,7 @@
 🚀 PopX Login Dashboard App
 A modern and responsive login and user dashboard built with React, TypeScript, TailwindCSS, and React Router. Designed with elegant UI components and smooth animations to create a clean, professional user experience.
-
+Demo :
+https://calm-buttercream-ba19e2.netlify.app/
 📸 Features
 🔐 Login Form with validation and toast feedback
 
@@ -17,16 +18,14 @@ A modern and responsive login and user dashboard built with React, TypeScript, T
 📱 Fully responsive layout
 
 📂 Folder Structure
-bash
-Copy
-Edit
 src/
 │
-├── components/ # UI components (Button, Input, etc.)
-├── hooks/ # Custom hooks (e.g., use-toast)
-├── pages/ # Route-based pages (Login, Dashboard)
-├── app/ # App root & routing
-├── styles/ # Tailwind config & global styles
+├── components/        # UI components (Button, Input, etc.)
+├── hooks/             # Custom hooks (e.g., use-toast)
+├── pages/             # Route-based pages (Login, Dashboard)
+├── app/               # App root & routing
+├── styles/            # Tailwind config & global styles
+
 🛠️ Tech Stack
 React + TypeScript
 
